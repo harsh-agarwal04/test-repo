@@ -1,0 +1,28 @@
+<project-repositories>
+  <repositories>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>maven-central</id>
+        <url>http://illin522.corp.amdocs.com:8081/repository/maven-public/</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>nexus</id>
+        <url>http://localhost:8081/repository/maven-releases/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>C:\Users\siddhmar/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+  </repositories>
+</project-repositories>
